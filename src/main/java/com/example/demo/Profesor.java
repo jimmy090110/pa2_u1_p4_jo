@@ -2,11 +2,15 @@ package com.example.demo;
 
 import java.time.LocalDateTime;
 
+import org.springframework.stereotype.Component;
+
+@Component //inversion de control
 public class Profesor {
 	private String nombre;
 	private String apellido;
 	private LocalDateTime fechaNacimiento;
 	private String cedula;
+	
 	
 	
 	
